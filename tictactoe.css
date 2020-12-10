@@ -2,6 +2,7 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: cursive, sans-serif;
+  font-size: 30px;
   margin: 0;
   background-image: linear-gradient(to right, #e6f5ff, #fff);
 }
@@ -9,7 +10,7 @@ header {
   background: #0099ff;
   color: #fff;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 40px;
   padding: 10px;
   text-align: center;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -17,7 +18,7 @@ header {
 }
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 55px);
+  grid-template-columns: repeat(3, 80px);
   grid-template-rows: repeat(3,auto);
   grid-gap: 10px;
   justify-content: center;
@@ -29,11 +30,11 @@ header {
 #screen {
   grid-column-start: span 3;
   background-color: #fff;
-  font-size: 15px;
+  font-size: 20px;
   text-align: right;
   padding-top: 10px;
   padding-right: 2px;
-  height: 55px;
+  height: 80px;
   border: 1px solid #888;
   box-shadow: 5px 5px 5px inset #888;
 }
@@ -43,10 +44,10 @@ header {
   border-radius: 5px;
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
-  width: 55px;
+  font-size: 45px;
+  width: 80px;
   padding: 5px;
-  height: 55px;
+  height: 80px;
   color: #fff;
   cursor: pointer;
 }
@@ -57,7 +58,8 @@ header {
   border-radius: 5px;
   text-align: center;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 25px;
+  height: 70px;
   padding: 5px;
   color: #fff;
   cursor: pointer;
